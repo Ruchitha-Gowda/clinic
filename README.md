@@ -2,7 +2,8 @@
 A full-stack clinic management system with a NestJS (Node.js) backend and a Next.js frontend.
 Backend is deployed to Render, frontend to Vercel, and MySQL database hosted for free on Filess.io.
 
-to login >> username -> staffuser , password -> password123
+TO login >> username -> staffuser , password -> password123
+
 Table of Contents
 Features
 
