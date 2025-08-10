@@ -6,7 +6,8 @@ import { PatientModule } from './patients/patient.module';
 import { AppointmentModule } from './appointments/appointment.module';
 import { QueueModule } from './queue/queue.module';
 import { ConfigModule, ConfigService } from "@nestjs/config";
-
+import { AppController } from './app.controller';
+import { AppService } from './app.service';
 @Module({
   imports: [
     ConfigModule.forRoot({
@@ -30,7 +31,9 @@ import { ConfigModule, ConfigService } from "@nestjs/config";
     PatientModule,
     AppointmentModule,
     QueueModule
-  ]
+  ],
+  controllers: [AppController],  
+  providers: [AppService],
 })
 
 export class AppModule { }

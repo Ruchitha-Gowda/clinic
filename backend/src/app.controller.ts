@@ -9,4 +9,8 @@ export class AppController {
   getHello(): string {
     return this.appService.getHello();
   }
+  @Get()
+  getRoot() {
+    return { message: 'Welcome to Clinic API Backend' };
+  }
 }
