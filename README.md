@@ -40,9 +40,9 @@ Deployment: Backend on Render, Frontend on Vercel
 Local Development
 1. Clone the repo
 text
-git clone https://github.com/yourusername/your-repo-name.git
-cd your-repo-name
-2. Backend
+git clone [https://github.com/yourusername/your-repo-name.git](https://github.com/Ruchitha-Gowda/clinic.git)
+cd clinic
+3. Backend
 text
 cd backend
 npm install
